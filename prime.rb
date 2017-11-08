@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
 
-  range = (1..num).to_a
+  range = (2..num).to_a
 
   if num <= 1
     return false
