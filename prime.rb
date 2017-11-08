@@ -6,6 +6,7 @@ def prime?(num)
   if num <= 1
     return false
   end
+  
   range.each do |i|
 
     if (num % i == 0) && (i != num)
