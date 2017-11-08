@@ -8,8 +8,8 @@ def prime?(num)
   if num <= 0
     return false
   elsif (num % i == 0).any?
-    return false
+    return true
   end
 end
-true
+false
 end
