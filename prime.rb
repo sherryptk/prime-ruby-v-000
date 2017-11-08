@@ -7,7 +7,7 @@ def prime?(num)
 
   if num <= 0
     return false
-  elsif num % i == 0
+  elsif (num % i == 0).any?
     return false
   end
 end
