@@ -3,13 +3,11 @@ def prime?(num)
 
   range = (1..num).to_a
 
-  if num <= 1
+  if num <= 1 ? false
     return false
   end
   range.each do |i|
 
-  if num <= 1
-    return false
   elsif (num % i == 0) && (i != num)
     return false
   end
