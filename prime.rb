@@ -4,8 +4,8 @@ def prime?(num)
   range = (1..num).to_a
 
   if num <= 1 ? false
-    return false
-  end
+  #   return false
+  # end
   range.each do |i|
 
   elsif (num % i == 0) && (i != num)
