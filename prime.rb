@@ -4,7 +4,12 @@ def prime?(num)
   range = (1..num).to_a
 
   range.each do |i|
-  if num % i == 0 ? false : true
+
+  if num =< 0
+    return false
+  elsif num % i == 0 
+    return false    
   end
 end
+true
 end
