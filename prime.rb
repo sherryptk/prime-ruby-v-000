@@ -2,6 +2,8 @@
 def prime?(num)
 
   range = (0..num).to_a
-  if num % ==0 ? false : true
 
+  range.each do |i|
+  if num % i == 0 ? false : true
+  end
 end
